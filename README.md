@@ -14,7 +14,33 @@ Includes castling
 <br>
 
 ## Installation
-$ pip install numpy <br>
-$ pip install pygame <br>
+### Virtual Enviroment 
+By using anaconda, these are the following steps to create a virtual enviroment <br> 
+'''
+conda -V 
+'''
+This checks if conda is installed and in your PATH <br>
+
+'''
+conda update conda 
+'''
+Updates any packages if neccessary 
+
+'''
+conda create -n yourenvname python=x.x anaconda 
+'''
+Where yourenvname is the name of your enviroment, and x.x is the version of python <br>
+
+'''
+source activate yourenvname 
+source deactivate 
+'''
+Activates your virtual enviroment and deactivates it <br>
+
+### Modules
+'''
+$ conda install numpy 
+$ conda install pygame 
+'''
 These are the only two libraries being used for this program <br>
 Also download the images directory for the images of each chess piece
