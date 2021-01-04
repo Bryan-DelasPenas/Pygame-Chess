@@ -5,16 +5,16 @@ This version of only allows for one person to move both white and black pieces.
 <br> 
 
 ## Features
-It has valid moves, meaning that only proper chess moves are allowed, 
-ie) pawns can only move foward, bishops moves diagonally.
+It has valid moves, meaning that only proper chess moves are allowed, <br> 
+ie) pawns can only move foward, bishops moves diagonally.<br>
 
-Includes checks and pins, and check mates.
-Includes a pawn promotion only makes a pawn into a queen
+Includes checks and pins, and check mates. <br>
+Includes a pawn promotion only makes a pawn into a queen <br>
 Includes castling 
 <br>
 
 ## Installation
-$ pip install numpy 
-$ pip install pygame 
-These are the only two libaries being used for this program
+$ pip install numpy <br>
+$ pip install pygame <br>
+These are the only two libraries being used for this program <br>
 Also download the images directory for the images of each chess piece
