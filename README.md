@@ -1,8 +1,20 @@
 # Pygame-Chess
 A self created library that creates and handles a chess game
-This program is a self created, that handles a game of chess. 
-It has valid moves, checks and includes checkmate. 
-A feature is that a pawn promotion only makes a pawn into a queen
+This program is a self created library, that handles a game of chess.  
+This version of only allows for one person to move both white and black pieces. 
+<br> 
 
-As of 12/16/2020
-Still needs castling, en passent, and winning animation
+## Features
+It has valid moves, meaning that only proper chess moves are allowed, 
+ie) pawns can only move foward, bishops moves diagonally.
+
+Includes checks and pins, and check mates.
+Includes a pawn promotion only makes a pawn into a queen
+Includes castling 
+<br>
+
+## Installation
+$ pip install numpy 
+$ pip install pygame 
+These are the only two libaries being used for this program
+Also download the images directory for the images of each chess piece
